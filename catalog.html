@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .navigation{
+            background:black;
+            display: flex;
+            justify-content: space-around;
+        }
+        .navigation a{
+            font-size: 2.6rem;
+            text-decoration: none;
+            color:white
+        }
+        .catalog{
+            padding:2%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 20px;
+        }
+        .catalog div{
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+            padding: 5%;
+        }
+        .btn{
+            border: none;
+            width: 40%;
+            padding: 3%;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+    <section class="catalog">
+        <div>
+            <img width="40%" src="https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1649472414095/4e1c97dbf374943f3c5c9ef05e96aebc.png"/>
+            <p>vivo v23e</p>
+            <p>39,000</p>
+            <p>This mobile phone features a Fluorite AG Glass that glows when it comes in contact with multiple lights. Also, the matte texture and diffused surface coating on its body allow you to get a firm grip and safety against fingerprints.footnote</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div>
+            <img width="40%" src="https://m.media-amazon.com/images/I/7162Y5fPdkL._SX569_.jpg"/>
+            <p>samsung M12</p>
+            <p>20,000</p>
+            <p>Samsung Galaxy M12 (Black,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate. footnote</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div>
+            <img width="40%" src="https://rukminim2.flixcart.com/image/416/416/kex5ci80/mobile/h/j/z/vivo-y20-v2029-original-imafvhytjazhvumy.jpeg?q=70"/>
+            <p>vivo Y20</p>
+            <p>30,000</p>
+            <p>Do more than what an ordinary smartphone can with the Vivo Y20 handset. Packing a Qualcomm Snapdragon processor and a 5,000-mAh battery, this smartphone delivers seamless performance for long hours. footnote</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div>
+            <img width="40%" src="https://pngimg.com/d/iphone_13_PNG3.png"/>
+            <p>iPhone 13</p>
+            <p>19,000</p>
+            <p>Every iPhone 14 (PRODUCT)RED purchase now contributes directly to the Global Fund to combat COVID‑19. footnote</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div>
+            <img width="40%" src="https://pngimg.com/d/iphone_13_PNG3.png"/>
+            <p>iPhone 13</p>
+            <p>19,000</p>
+            <p>Every iPhone 14 (PRODUCT)RED purchase now contributes directly to the Global Fund to combat COVID‑19. footnote</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+    </section>
+</body>
+</html>
